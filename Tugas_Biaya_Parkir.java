@@ -21,6 +21,6 @@ public class Tugas_Biaya_Parkir {
       System.out.println("==================================");
       data.close();
 
-      //M. Rizky Maulana_Algoritma dan Struktur_TI B
+      //M. Rizky Maulana_Algoritma dan Struktur Data_ TI.B
     }
 }
