@@ -1,5 +1,5 @@
 import  java.util.Scanner;
-public class BiayaParkir {
+public class Tugas_Biaya_Parkir {
     public static void main(String[]args){
       Scanner data = new Scanner(System.in);
       int tarif = 2000;
