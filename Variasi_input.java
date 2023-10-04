@@ -20,5 +20,7 @@ public class Variasi_input {
       System.out.println("Total Yang Harus Di Bayar Rp." + hasil);
       System.out.println("==================================");
       masukan_data.close();
+
+      //M. Rizky Maulana_Algoritma dan Struktur_TI B
     }
 }
