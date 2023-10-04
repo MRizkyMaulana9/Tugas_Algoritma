@@ -16,9 +16,9 @@ public class Variasi_input {
       total_jam_parkir = jam_keluar - jam_masuk;
       hasil = total_jam_parkir * tarif;
       System.out.println(" ");
-      System.out.println("===============================");
+      System.out.println("==================================");
       System.out.println("Total Yang Harus Di Bayar Rp." + hasil);
-      System.out.println("===============================");
+      System.out.println("==================================");
       masukan_data.close();
     }
 }
