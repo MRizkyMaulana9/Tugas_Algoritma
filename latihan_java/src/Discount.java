@@ -11,8 +11,7 @@ public class Discount {
            totalBelanja = totalBelanja - discount;
         }
 
-        System.out.print("Maka Total Yang harus dibayar "+ totalBelanja);
-
+        System.out.print("Maka Total Yang harus dibayar Rp. "+ totalBelanja);
         input.close();
     }
 }

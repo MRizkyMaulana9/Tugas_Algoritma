@@ -7,11 +7,11 @@ public class Nilai {
        Scanner input = new Scanner (System.in);
        System.out.print("Masukan Nilai");
        Nilai = input.nextDouble();
-       if (Nilai >= 75) {
+       if (Nilai > 75) {
         indeksNilai = "A";
-       } else if (Nilai >= 65) {
+       } else if (Nilai > 65) {
         indeksNilai = "B";
-       } else if (Nilai >= 55) {
+       } else if (Nilai > 55) {
         indeksNilai = "C";
        } else {
         indeksNilai = "D";
