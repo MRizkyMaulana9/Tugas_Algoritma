@@ -1,17 +1,20 @@
 import java.util.Scanner;
 public class Discount {
     public static void main(String[] args) throws Exception {
-        Double totalBelanja, discount;
+        double totalBelanja; 
+        double discount;
         Scanner input = new Scanner (System.in);
-        System.out.print("Masukan Total Belanja");
+        System.out.println("Masukan Total Belanja");
         totalBelanja = input.nextDouble();
-
+        double bayar = totalBelanja;
         if (totalBelanja >= 1000000) {
-           discount = 5/100 * totalBelanja;
-           totalBelanja = totalBelanja - discount;
+           discount = 0.05 * totalBelanja;
+           bayar = totalBelanja - discount;
+        } else if ( totalBelanja < 1000000) {
+           bayar = totalBelanja;
         }
-
-        System.out.print("Maka Total Yang harus dibayar Rp. "+ totalBelanja);
+        
+        System.out.println("Maka Total Yang harus dibayar Rp. "+ bayar);
         input.close();
     }
 }

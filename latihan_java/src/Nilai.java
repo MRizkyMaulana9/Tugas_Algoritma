@@ -5,7 +5,7 @@ public class Nilai {
        String indeksNilai;
        
        Scanner input = new Scanner (System.in);
-       System.out.print("Masukan Nilai");
+       System.out.println("Masukan Nilai");
        Nilai = input.nextDouble();
        if (Nilai > 75) {
         indeksNilai = "A";
