@@ -1,28 +1,18 @@
-import java.util.ArrayList;
 public class Buku {
     int id;
-    String Judul_buku;
+    String Judul;
     String Pengarang;
     String Penerbit;
+    int KategoriId;
     int Tahun;
-    String Kategori;
-    Buku (int id, String Judul_buku, String pengarang, String Penerbit, int Tahun, String Kategori){
+    
+
+    Buku (int id, String Judul, String pengarang, String Penerbit, int KategoriId, int Tahun){
         this.id = id;
-        this.Judul_buku = Judul_buku;
+        this.Judul = Judul;
         this.Pengarang = pengarang;
         this.Penerbit = Penerbit;
+        this.KategoriId = KategoriId;
         this.Tahun = Tahun;
-        this.Kategori = Kategori;
-    } 
-    public static void main(String[] args) throws Exception {
-         ArrayList<Buku> Kategoribuku = new ArrayList<Buku>();
-        
-        Kategoribuku.add (new Buku(1, "PB0 Dengan Java", "Abdul Kadir", "Erlangga", 2008, "Teknik");  
-
-        
-        for(Handphone datahandphone : daftarHandphones){
-            System.out.println(datahandphone.id + " " + datahandphone.nama_brand + " " + datahandphone.tipe_hp + " " + datahandphone.warna + " " + datahandphone.harga);
-        }
-
     }
 }
