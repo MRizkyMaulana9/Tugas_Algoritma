@@ -1,4 +1,4 @@
-public class Buku {
+public class Buku  {
     int id;
     String Judul;
     String Pengarang;
@@ -6,7 +6,6 @@ public class Buku {
     int KategoriId;
     int Tahun;
     
-
     Buku (int id, String Judul, String pengarang, String Penerbit, int KategoriId, int Tahun){
         this.id = id;
         this.Judul = Judul;
