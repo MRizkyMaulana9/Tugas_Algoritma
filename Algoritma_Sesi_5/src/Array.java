@@ -1,4 +1,4 @@
-public class Array {
+/*public class Array {
     public static void main(String[] args) throws Exception {
         int a = 1;
         int b = 2;
@@ -16,3 +16,4 @@ public class Array {
         }
     }
 }
+*/
