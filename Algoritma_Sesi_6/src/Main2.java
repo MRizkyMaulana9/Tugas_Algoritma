@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) throws Exception {
 
         ArrayList<Kategori> ListKategori = new ArrayList<Kategori>();
@@ -11,14 +11,14 @@ public class Main {
         ListKategori.add(new Kategori(5, "Baru"));
         ListKategori.add(new Kategori(6, "Lainnya"));
 
-        ArrayList<Buku> ListBuku = new ArrayList<Buku>();
-        ListBuku.add (new Buku(1, "PB0 Dengan Java", "Abdul Kadir", "Erlangga", 1, 2008));
-        ListBuku.add (new Buku(2, "Dasar Pemrograman Java", "Abdul Kadir", "Erlangga", 1, 2008));
-        ListBuku.add (new Buku(3, "Komputer & Pemrograman", "Abdul Kadir", "Erlangga", 3, 2008));
+        ArrayList<Buku_2> ListBuku = new ArrayList<Buku_2>();
+        ListBuku.add (new Buku_2(1, "PB0 Dengan Java", "Abdul Kadir", "Erlangga", 1, 2008));
+        ListBuku.add (new Buku_2(2, "Dasar Pemrograman Java", "Abdul Kadir", "Erlangga", 1, 2008));
+        ListBuku.add (new Buku_2(3, "Komputer & Pemrograman", "Abdul Kadir", "Erlangga", 3, 2008));
 
         ArrayList<Total> total = new ArrayList<Total>();
  
-        for(Buku buku: ListBuku){
+        for(Buku_2 buku: ListBuku){
             total.add(new Total(buku.KategoriId-1,+1));
            System.out.println(buku.id + " " + buku.Judul + " " + buku.Pengarang + " " + buku.Penerbit + " " + buku.Tahun + " " + ListKategori.get(buku.KategoriId-1).NamaKategori);
         }

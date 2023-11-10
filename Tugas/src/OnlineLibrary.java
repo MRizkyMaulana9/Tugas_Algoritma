@@ -50,8 +50,9 @@ class Library {
     }
 
     public void displayBooks() {
+        System.out.println("=========================================================================================");
         System.out.println("Daftar Buku Tersedia");
-        System.out.println("--------------------");
+        System.out.println("=======================================================================================");
         System.out.println("No  | Judul Buku                 | Pengarang        | Penerbit         | Tahun | Kategori");
         System.out.println("----|----------------------------|------------------|------------------|-------|---------");
         for (int i = 0; i < books.size(); i++) {
